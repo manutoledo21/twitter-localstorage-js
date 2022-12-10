@@ -3,12 +3,6 @@ const formulario = document.querySelector('#formulario');
 const listaTweets = document.querySelector('#lista-tweets');
 let tweets = [];
 
-const liTweet = `<div class="card">
-<div class="card-body">
-  ${tweets}
-</div>
-</div>`;
-
 // Event Listeners
 eventListeners();
 
@@ -85,7 +79,7 @@ function crearHTML() {
       // Crear HTML
       const li = document.createElement('li');
       // Añadir texto
-      li.innerHTML = liTweet;
+      li.innerHTML = tweet.tweet;
 
       // Boton eliminar
       li.appendChild(botonEliminar);
