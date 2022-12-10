@@ -1,0 +1,18 @@
+.borrar-tweet,
+.borrar-tweet:hover {
+  float: right;
+  cursor: pointer;
+  color: #ff0048;
+  font-weight: bold;
+}
+
+.error {
+  background-color: #ff0048;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  max-width: 400px;
+  margin: 0 auto;
+  color: white;
+}
